@@ -422,7 +422,7 @@ body.dark-mode .side-card {
         position: relative;
         top: 10px;
         left: auto;
-        margin-bottom: 15px;
+        margin: 0 auto 15px auto;
         width: fit-content;
     }
 
@@ -432,7 +432,7 @@ body.dark-mode .side-card {
         right: auto;
         width: 90%;
         max-width: 500px;
-        margin-bottom: 15px;
+        margin: 0 auto 15px auto;
     }
 
     .container {
@@ -451,7 +451,7 @@ body.dark-mode .side-card {
     .input-row input, 
     .input-row select, 
     .input-row button {
-        width: 100%; 
+        width: 100%;
         box-sizing: border-box;
     }
 
@@ -461,16 +461,18 @@ body.dark-mode .side-card {
         right: auto;
         left: auto;
         bottom: auto;
-        margin-top: 20px;
+        margin: 20px auto 0 auto; 
         width: 90%;
         max-width: 500px;
         display: flex;
         flex-direction: column;
+        align-items: center; 
         gap: 15px;
     }
 
     .side-card {
         width: 100% !important;
         box-sizing: border-box;
+        margin: 0 auto; 
     }
 }
